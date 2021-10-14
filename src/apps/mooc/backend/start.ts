@@ -9,5 +9,6 @@ try {
 
 process.on('uncaughtException', err => {
   console.log('uncaughtException', err);
+  console.log('commit test');
   process.exit(1);
 });
